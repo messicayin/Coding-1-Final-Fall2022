@@ -1,9 +1,9 @@
 body {
-    background-color:bisque;
+    background-color:white;
 }
 
 nav {
-    margin-top: 2rem;
+    margin-top: 3rem;
     margin-bottom: 1rem;
 }
 
@@ -15,14 +15,27 @@ nav {
     justify-content: center;
 }
 
-@media only screen and (max-width: 575px) {
+.logo {
+    margin-left: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
     .navbar-collapse {
         align-self: flex-end;
         position: static;
-        padding-right: 5vw;
     }
     nav {
         margin-top:1rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .insta-icon {
+        position: absolute;
+        right: .8rem;
+    }
+    .collapse {
+        margin-right: 4rem;
     }
 }
 
