@@ -1,0 +1,34 @@
+body {
+    background-color:bisque;
+}
+
+nav {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+@media only screen and (max-width: 575px) {
+    .navbar-collapse {
+        align-self: flex-end;
+        position: static;
+        padding-right: 5vw;
+    }
+    nav {
+        margin-top:1rem;
+    }
+}
+
+@media
+(prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
